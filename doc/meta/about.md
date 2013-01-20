@@ -17,7 +17,7 @@ Zeitdruck steht, einmal den kompletten Ablauf einer Softwareentwicklung durchleb
 Es geht in erster Linie darum Erfahrungen zu sammeln und auszutauschen.
 
 Dazu wird in diesem Projekt extrem darauf geachtet Best-Practices anzuwenden.
-Concept First, TDD, SOLID, gute Dokumentation. Wir versuchen es von Anfang an
+Concept First, [TDD][1], [SOLID][2], gute Dokumentation. Wir versuchen es von Anfang an
 "richtig" zu machen. Dies ist in realen Projekten aufgrund von Zeitdrucken
 oft schwer umzusetzten.
 Die Hoffung ist aber dass, hat man erst einmal ein Projekt auf diese Weise umgesetzt,
@@ -49,22 +49,22 @@ Gruppe ein solches Projekt umzusetzten.
 
 ### Teammitglieder
 
-- [Mark Schmale][1]
+- [Mark Schmale][3]
 
 *(Wer mitmachen will, hier Eintragen)*
 
-## Die Werkzeugen
+## Die Werkzeuge
 
 Sämtliche relevanten Dokumenten zu diesem Projekt kommen in dieses Git-Repositpory
 welches u.a. auf GitHub gehostet wird. Zusätzlich werden die von GitHub angebotenten
 Werzeug wie das Wiki und der Bugtracker genutzt.
-Zusätzlich nutzten wir TravisCI für regelmäßige Tests.
+Zusätzlich nutzten wir [TravisCI][4] für regelmäßige Tests.
 
 Für die Kommunikation der Teammitglieder setzten wir auf TeamSpeak. Für längere
 Diksussion biete sich jedoch, der Dokumentantion zuliebe, das Wiki bzw. der
 Issue-Tracker an da man dort Sachen leicher nachlesen kann.
 
-Als Sprache kommt C++ mit CMAKE zum Einsatz.
+Als Sprache kommt C++ mit [CMAKE][5] zum Einsatz.
 
 Welche IDE benutzt werden soll ist nicht vorgegeben.
 
@@ -73,4 +73,8 @@ Welche IDE benutzt werden soll ist nicht vorgegeben.
 
 Das gesamte Projekt steht unter der MIT Lizenz.
 
-[1]: https://github.com/themasch
+[1]: http://de.wikipedia.org/wiki/Testgetriebene_Entwicklung
+[2]: http://de.wikipedia.org/wiki/SOLID#SOLID_Prinzipien
+[3]: https://github.com/themasch
+[4]: https://travis-ci.org/
+[5]: http://www.cmake.org/
